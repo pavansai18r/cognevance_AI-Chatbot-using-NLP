@@ -1,0 +1,8 @@
+{
+  "preprocess_backend": "nltk",
+  "n_patterns": 373,
+  "n_intents": 25,
+  "baseline_test_accuracy": 0.6915,
+  "improved_test_accuracy": 0.6702,
+  "cv_accuracy_3fold_original_data": 0.74
+}

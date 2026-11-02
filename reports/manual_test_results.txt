@@ -1,0 +1,23 @@
+PASS  'good morning to you'                  -> greeting (0.99)  expected greeting
+PASS  'see you around'                       -> goodbye (0.98)  expected goodbye
+PASS  'thank you for your help'              -> thanks (0.96)  expected thanks
+PASS  'may i know your name'                 -> bot_identity (0.78)  expected bot_identity
+PASS  'could you share a funny story'        -> joke (0.52)  expected joke
+PASS  'what is the time right now'           -> time (0.91)  expected time
+PASS  'can you explain natural language processing' -> what_is_nlp (0.98)  expected what_is_nlp
+PASS  'how does machine learning work'       -> what_is_ml (0.99)  expected what_is_ml
+PASS  'where do i send my project'           -> submission (0.97)  expected submission
+PASS  'do you give certificates'             -> certificate (0.99)  expected certificate
+PASS  'i want to speak to someone from support' -> contact_support (0.96)  expected contact_support
+PASS  'i feel so stressed and sad'           -> feeling_sad (1.00)  expected feeling_sad
+PASS  'is python the best language for artificial intelligence' -> programming_language (0.90)  expected programming_language
+PASS  'what is the fee for this internship'  -> pricing (0.98)  expected pricing
+PASS  'you are very smart'                   -> compliment (0.95)  expected compliment
+PASS  'which courses do you have'            -> courses (1.00)  expected courses
+FAIL  'which date is it right now'           -> yes (0.43)  expected date
+PASS  'you are useless and dumb'             -> insult (1.00)  expected insult
+PASS  'how do deep neural networks learn'    -> what_is_deep_learning (1.00)  expected what_is_deep_learning
+FAIL  'do i need an umbrella today'          -> contact_support (0.35)  expected weather
+
+Manual test accuracy: 18/20 = 90%
+Gibberish -> {'intent': 'fallback', 'confidence': 0.11519425563143888, 'response': 'Sorry, I did not quite understand that. Could you rephrase?'}

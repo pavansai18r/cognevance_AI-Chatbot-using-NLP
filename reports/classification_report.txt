@@ -1,0 +1,31 @@
+                       precision    recall  f1-score   support
+
+         bot_identity       0.43      0.75      0.55         4
+         capabilities       0.25      0.25      0.25         4
+          certificate       1.00      1.00      1.00         3
+           compliment       0.00      0.00      0.00         5
+      contact_support       0.60      0.75      0.67         4
+              courses       0.50      0.25      0.33         4
+                 date       1.00      1.00      1.00         3
+          feeling_sad       0.50      0.50      0.50         4
+              goodbye       0.75      0.60      0.67         5
+             greeting       1.00      0.80      0.89         5
+          how_are_you       0.17      0.25      0.20         4
+               insult       0.33      0.25      0.29         4
+                 joke       1.00      1.00      1.00         4
+                   no       0.75      0.75      0.75         4
+              pricing       1.00      1.00      1.00         4
+ programming_language       0.67      0.67      0.67         3
+           submission       0.67      0.67      0.67         3
+               thanks       1.00      1.00      1.00         4
+                 time       0.75      1.00      0.86         3
+              weather       1.00      0.75      0.86         4
+           what_is_ai       1.00      0.67      0.80         3
+what_is_deep_learning       1.00      1.00      1.00         3
+           what_is_ml       0.75      1.00      0.86         3
+          what_is_nlp       1.00      1.00      1.00         3
+                  yes       0.50      0.50      0.50         4
+
+             accuracy                           0.67        94
+            macro avg       0.70      0.70      0.69        94
+         weighted avg       0.68      0.67      0.67        94
